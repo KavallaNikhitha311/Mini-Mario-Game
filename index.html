@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Platform Jumper — Kaboom.js</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #1a1a2e;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      font-family: system-ui, sans-serif;
+      color: #eee;
+    }
+
+    h1 {
+      margin-bottom: 8px;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+
+    p {
+      margin-bottom: 12px;
+      font-size: 0.85rem;
+      opacity: 0.75;
+      text-align: center;
+      max-width: 520px;
+    }
+
+    canvas {
+      border: 2px solid #333;
+      border-radius: 4px;
+      image-rendering: pixelated;
+    }
+  </style>
+</head>
+<body>
+  <h1>Platform Jumper</h1>
+  <p>
+    Collect coins, avoid red enemies, reach the gold goal!<br />
+    Move: ← → or A D &nbsp;|&nbsp; Jump: Space or ↑ &nbsp;|&nbsp; Start / Retry: Space
+  </p>
+
+  <script src="https://unpkg.com/kaboom@3000.1.17/dist/kaboom.js"></script>
+  <script src="sounds.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
