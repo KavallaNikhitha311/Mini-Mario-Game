@@ -5,7 +5,7 @@ A Kaboom.js platformer with coins, enemies, sound effects, and game-state screen
 ## Project structure
 
 ```
-SuperMarioGame/
+Mini-Mario Game/
 ├── index.html   # Page layout and styles
 ├── game.js      # Game logic, levels, UI, and states
 ├── sounds.js    # Procedural sound effects (Web Audio API)
